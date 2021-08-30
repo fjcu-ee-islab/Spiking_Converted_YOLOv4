@@ -9,4 +9,18 @@ pip3 install scipy
 pip3 install matplotlib
 pip3 install Pillow
 ```
-
+Please install it if opencv is not installed
+```
+pip3 install opencv-python 
+```
+You can use three methods to convert .jpg
+```
+python tool_LIF_aedat4.py
+python tool_frequency_aedat4.py
+python tool_sae_aedat4.py
+```
+Or you can use jupyter notebook for .avi
+```
+pip install jupyter notebook
+tool_sae_aedat4_avi.ipynb
+```
