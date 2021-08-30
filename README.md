@@ -1,5 +1,6 @@
 # Spiking_Converted_YOLOv4
 Object Detection Based on Dynamic Vision Sensor with Spiking Neural Network
+![](https://github.com/fjcu-ee-islab/Spiking_Converted_YOLOv4/blob/master/flowchart/flowchart.png)
 ## AEDAT4 files to .jpg or .avi
 You must clone and install [DV-python](https://gitlab.com/inivation/dv/dv-python)
 First install PIL and matplotlib
