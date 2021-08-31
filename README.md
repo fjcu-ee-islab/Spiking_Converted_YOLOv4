@@ -7,6 +7,10 @@ We provide object detection trained on the MNIST-DVS dataset label by the auto_l
 
 We provide the auto_labeling algorithm program in ```Auto_labeling_algorithm``` floder
 
+We provide object detection trained on the PAFBenchmark dataset label by the auto_labeling algorithm in ```PAFBenchmark``` floder
+
+We provide object detection trained on the FJU_event_pedestrian_detection dataset label by the auto_labeling algorithm in ```fju_event_pedestrian_detection``` floder
+
 ![](https://github.com/fjcu-ee-islab/Spiking_Converted_YOLOv4/blob/master/flowchart/flowchart.png)
 ## AEDAT4 files to .jpg or .avi
 You must clone and install [DV-python](https://gitlab.com/inivation/dv/dv-python)
@@ -146,6 +150,14 @@ The following programs can be used to automatically mark and test OpenCV_contrib
 ```
 /Auto_labeling_algorithm/CSRT_大量存圖_存取影像(可存原圖).cpp
 ```
+## PAFBenchmark
+Parameter adjustment and training methods are roughly the same as MNIST-DVS-Detection
+You can download relevant training dataset [here](https://drive.google.com/file/d/1rhByl3rk0yGTepXOb9sQAFXmoZ19pghk/view?usp=sharing)
+## fju_event_pedestrian_detection
+Parameter adjustment and training methods are roughly the same as MNIST-DVS-Detection
+You can download relevant training dataset [here](https://drive.google.com/file/d/14MbYG6216m2hCdOdjKVSkYRfqeZZ29Fr/view?usp=sharing)
+
+
 
 
 
