@@ -3,6 +3,8 @@ Object Detection Based on Dynamic Vision Sensor with Spiking Neural Network
 
 We provide three methods: Frequency, SAE, and LIF to convert dynamic vision sensor data into visualization data in ```Frequency、SAE、LIF``` floder
 
+We provide object detection trained on the MNIST-DVS dataset label by the auto_labeling algorithm in ```MNIST-DVS-Detection``` floder
+
 ![](https://github.com/fjcu-ee-islab/Spiking_Converted_YOLOv4/blob/master/flowchart/flowchart.png)
 ## AEDAT4 files to .jpg or .avi
 You must clone and install [DV-python](https://gitlab.com/inivation/dv/dv-python)
