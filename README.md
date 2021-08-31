@@ -175,8 +175,18 @@ return self.numpy()
 改成
 return self.cpu().numpy()
 ```
-
-
+train
+```
+python train.py --batch-size 32 --cfg /spiking_yolov4.cfg --data /fju_YOLOv4.data --weights ''
+```
+test
+```
+python test.py --cfg /spiking_yolov4.cfg --data /fju_YOLOv4.data --weights weights/best.pt --batch-size 32 --img-size 640
+```
+CNN to SNN
+```
+python ann_to_snn.py --cfg /spiking_yolov4.cfg --data /fju_YOLOv4.data --weights weights/best.pt --timesteps 32 --batch-size 1
+```
 
 
 
