@@ -1,0 +1,5 @@
+classes=10
+train=/home/shon/code/MNIST_DVS_final/train/train.txt
+valid=/home/shon/code/MNIST_DVS_final/dev/dev.txt
+names=/home/shon/code/MNIST_DVS_final/mnist.names
+backup=/home/shon/code/MNIST_DVS_final/back512_1/
