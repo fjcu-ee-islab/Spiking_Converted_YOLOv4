@@ -127,6 +127,23 @@ Use our test program
 ```
 python test.py
 ```
+## Auto_labeling algorithm
+The environmental requirements we use are
+```
+Window 10
+Visual studio 2017
+OpenCV - 3.4.11
+OpenCV_contrib - 3.4.11
+Cmake 3.10.0
+```
+If you finish installing OpenCV, you can use the following program to test
+```
+/Auto_labeling_algorithm/test_opencv.cpp
+```
+The following programs can be used to automatically mark and test OpenCV_contrib, and most of the other programs are used to remove noise
+```
+/Auto_labeling_algorithm/CSRT_大量存圖_存取影像(可存原圖).cpp
+```
 
 
 
