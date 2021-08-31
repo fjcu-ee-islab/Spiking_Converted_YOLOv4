@@ -156,6 +156,30 @@ You can download relevant training dataset [here](https://drive.google.com/file/
 ## fju_event_pedestrian_detection
 Parameter adjustment and training methods are roughly the same as MNIST-DVS-Detection
 You can download relevant training dataset [here](https://drive.google.com/file/d/14MbYG6216m2hCdOdjKVSkYRfqeZZ29Fr/view?usp=sharing)
+## Spiking converted YOLOv4
+You must clone and install [PyTorch-Spiking-YOLOv3](https://github.com/cwq159/PyTorch-Spiking-YOLOv3)
+Package version requirements
+```
+pytorch 1.3
+python 3.7
+```
+If you encounter the following error
+```
+File "/home/shon/anaconda3/envs/torch1.3/lib/python3.7/site-packages/torch/tensor.py", line 433, in __array__
+    return self.numpy()
+TypeError: can't convert CUDA tensor to numpy. Use Tensor.cpu() to copy the tensor to host memory first.
+```
+Please go to the path listed above to modify the tensor.py
+```
+return self.numpy()
+改成
+return self.cpu().numpy()
+```
+
+
+
+
+
 
 
 
