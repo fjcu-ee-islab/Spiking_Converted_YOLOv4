@@ -5,6 +5,8 @@ We provide three methods: Frequency, SAE, and LIF to convert dynamic vision sens
 
 We provide object detection trained on the MNIST-DVS dataset label by the auto_labeling algorithm in ```MNIST-DVS-Detection``` floder
 
+We provide the auto_labeling algorithm program in ```Auto_labeling_algorithm``` floder
+
 ![](https://github.com/fjcu-ee-islab/Spiking_Converted_YOLOv4/blob/master/flowchart/flowchart.png)
 ## AEDAT4 files to .jpg or .avi
 You must clone and install [DV-python](https://gitlab.com/inivation/dv/dv-python)
