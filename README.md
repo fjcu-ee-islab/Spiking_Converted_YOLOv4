@@ -11,7 +11,7 @@ You can download [AEDAT4 files](https://drive.google.com/file/d/14MbYG6216m2hCdO
 
 First install PIL and matplotlib
 ```
-cd Frequency、SAE、LIF
+cd Frequency、SAE、LIF/
 pip3 install scipy
 pip3 install matplotlib
 pip3 install Pillow
@@ -31,3 +31,20 @@ Or you can use jupyter notebook for .avi
 pip install jupyter notebook
 tool_sae_aedat4_avi.ipynb
 ```
+
+## MNIST-DVS-Detection
+You must clone and install [Darknet](https://github.com/AlexeyAB/darknet)
+Check the MakeFile and change the following parameters
+```
+GPU=0					
+CUDNN=0					
+CUDNN_HALF=0
+OPENCV=0				
+AVX=0
+OPENMP=0
+LIBSO=0
+ZED_CAMERA=0 # ZED SDK 3.0 and above
+ZED_CAMERA_v2_8=0 # ZED SDK 2.X 
+```
+
+
