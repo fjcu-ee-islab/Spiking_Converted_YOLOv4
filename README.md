@@ -36,15 +36,25 @@ tool_sae_aedat4_avi.ipynb
 You must clone and install [Darknet](https://github.com/AlexeyAB/darknet)
 Check the MakeFile and change the following parameters
 ```
-GPU=0					
-CUDNN=0					
+GPU=1					
+CUDNN=1					
 CUDNN_HALF=0
-OPENCV=0				
+OPENCV=1				
 AVX=0
 OPENMP=0
 LIBSO=0
 ZED_CAMERA=0 # ZED SDK 3.0 and above
 ZED_CAMERA_v2_8=0 # ZED SDK 2.X 
+```
+Enter the darknet folder and execute
+```
+cd MNIST-DVS-Detection/darknet/
+make
+```
+Download and use the trained weights for testing [Weights](https://drive.google.com/file/d/1cewMfusmPjYWbrnuJRuKhPMwRe_b9PaT/view)
+Use the pictures that come with darknet for testing
+```
+./darknet detect /darknet/cfg/yolov4.cfg /yolov4.weights /darknet/data/dog.jpg
 ```
 
 
