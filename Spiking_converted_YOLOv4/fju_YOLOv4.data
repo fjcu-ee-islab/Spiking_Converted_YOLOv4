@@ -1,0 +1,5 @@
+classes=1
+train=/home/shon/code/fju_event_pedestrian_detection/label_final/label_train/train.txt
+valid=/home/shon/code/fju_event_pedestrian_detection/label_final/label_dev/dev.txt
+names=/home/shon/code/fju_event_pedestrian_detection/human_label_train/fju.names
+backup=/home/shon/code/fju_event_pedestrian_detection/human_label_train/backup448_2000/
