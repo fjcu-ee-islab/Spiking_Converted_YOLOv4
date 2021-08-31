@@ -11,6 +11,8 @@ We provide object detection trained on the PAFBenchmark dataset label by the aut
 
 We provide object detection trained on the FJU_event_pedestrian_detection dataset label by the auto_labeling algorithm in ```fju_event_pedestrian_detection``` floder
 
+We provide object detection based on dynamic vision sensor with spiking neural network trained on the FJU_event_pedestrian_detection dataset label by the auto_labeling algorithm in ```Spiking_converted_YOLOv4``` floder
+
 ![](https://github.com/fjcu-ee-islab/Spiking_Converted_YOLOv4/blob/master/flowchart/flowchart.png)
 ## AEDAT4 files to .jpg or .avi
 You must clone and install [DV-python](https://gitlab.com/inivation/dv/dv-python)
