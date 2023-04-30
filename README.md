@@ -16,7 +16,7 @@ We provide object detection based on dynamic vision sensor with spiking neural n
 ![](https://github.com/fjcu-ee-islab/Spiking_Converted_YOLOv4/blob/master/flowchart/flowchart.png)
 
 ## FJUPD Event Dataset
-FJUPD Event Dataset is available at [IEEE DataPort](https://dx.doi.org/10.21227/x8x3-mw77) and [FJUPD Download Link](https://u.pcloud.link/publink/show?code=kZO8ujVZz1BJJUPqzAS7v0h9M1gTJyTnhNW7)
+FJUPD Event Dataset is available at [IEEE DataPort](https://dx.doi.org/10.21227/x8x3-mw77) and [FJUPD Download Link](https://u.pcloud.link/publink/show?code=kZO8ujVZz1BJJUPqzAS7v0h9M1gTJyTnhNW7).
 
 ## AEDAT4 files to .jpg or .avi
 You must clone and install [DV-python](https://gitlab.com/inivation/dv/dv-python)
