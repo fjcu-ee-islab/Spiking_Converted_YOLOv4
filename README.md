@@ -1,4 +1,20 @@
 # Spiking_Converted_YOLOv4
+This repository contains the official code described in the IEEE Access paper "[Spike-event Object Detection for Neuromorphic Vision](https://ieeexplore.ieee.org/document/10016699/)".
+
+## Citation
+```
+@ARTICLE{10016699,
+  author={Wang, Yuan-Kai and Wang, Shao-En and Wu, Ping-Hsien},
+  journal={IEEE Access}, 
+  title={Spike-Event Object Detection for Neuromorphic Vision}, 
+  year={2023},
+  volume={11},
+  number={},
+  pages={5215-5230},
+  doi={10.1109/ACCESS.2023.3236800}}
+```
+
+## Introduction
 Object Detection Based on Dynamic Vision Sensor with Spiking Neural Network
 
 We provide three methods: Frequency, SAE, and LIF to convert dynamic vision sensor data into visualization data in ```Frequency、SAE、LIF``` floder
